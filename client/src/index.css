@@ -1,0 +1,114 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+.auth-form input {
+		color: #fff;
+	}
+.logo {
+	margin: 0;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+body {
+	background: #b2b6b5;
+}
+.parallax-container {
+	height: 400px;
+}
+
+.parallax-container--small {
+	height: 150px;
+}
+.my-app input {
+	height: 22px !important;
+	margin-top: 12px !important;
+	padding-bottom: 10px !important;
+}
+.my-app input::placeholder {
+	color: transparent;
+}
+.my-app input:focus::placeholder {
+	color: rgba(255,255,255,.3)
+}
+
+.main-menu__wrapper,
+.my-app .blue-grey.darken-1,
+.main-title__wrapper {
+	background: #565047 !important;
+}
+.main-title {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;  /* Fallback: assume this color ON TOP of image */
+	background-image: url('https://ic.pics.livejournal.com/e_kaspersky/24977487/8464686/8464686_original.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top -400px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 1;
+	padding: 0;
+}
+
+.main-subtitle {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 0 0 40px;
+	letter-spacing: 36px;
+	margin: 0;
+}
+
+.my-app .blue-grey.darken-1 {
+	background: #000;
+}
+
+.main-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0;
+}
+.main-menu a {
+	font-size: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.main-menu a:hover {
+	color: #26a69a;
+ }
+
+.my-app .card.sign-up {
+	position: absolute;
+	top: 360px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.section {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.subtitle{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 18px;
+}
+.my-app .main-menu a:hover {
+	color: #fff;
+}
+.my-app .carousel {
+	margin-bottom: 80px;
+	height: 300px;
+}
+.my-app .carousel .carousel-item {
+	width: 300px;
+	height: 300px;
+}
+.main-subtitle--dark {
+	margin: 40px;
+	color: #565047;
+}
